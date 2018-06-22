@@ -10,6 +10,7 @@ function normalizeCSV(filePath) {
   var writeStream = fs.createWriteStream('normalizedCsvOutput.csv');
   var endStream = function () {
     writeStream.end();
+    console.log("Done normalizing csv! Output file: normalizedCsvOutput.csv")
   }
   var headers = [];
   var write = function(line, lineNum) {

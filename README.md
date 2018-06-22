@@ -1,8 +1,30 @@
-_This is one of the steps in the Truss interview process. If you've
-stumbled upon this repository and are interested in a career with
-Truss, [check out our jobs page](https://truss.works/jobs)._
+## HI There!
+Hey there, here is my solution to the coding challenge below that normalize
+a CSV file.
 
-# Truss Software Engineering Interview
+## How to Run
+Here's a couple things you probably need before you try to run:
+- Install NPM
+- Install NodeJS
+
+The latest versions of NPM and NodeJS should be fine. Once you have those
+installed, follow these steps:
+1. Download and unzip to desired directory
+OR
+Clone the repository.
+2. Open up a console or cmd line
+3. Navigate to the local repo directory that you downloaded
+3. Type in the cmd: node NormalizeCSV.js {csvfile}.csv
+4. Press enter!
+
+You can replace the "{csvfile}.csv" part with your own csv file or use one of
+the files in the root directory:
+- sample-with-broken-utf8.csv
+- sample.csv
+
+That's it! Thanks!
+
+--------------------------------------------------------------------------------
 
 ## Introduction and expectations
 
