@@ -17,6 +17,9 @@ Clone the repository.
 3. Type in the cmd: node NormalizeCSV.js {csvfile}.csv
 4. Press enter!
 
+The tool will output the result file as: normalizedCsvOutput.csv, in the root
+directory.
+
 You can replace the "{csvfile}.csv" part with your own csv file or use one of
 the files in the root directory:
 - sample-with-broken-utf8.csv
